@@ -20,7 +20,7 @@ public:
             count++;
             current = current->next;
         }
-        current = head;
+        
         ListNode* newnode = head;
         for (int i = 0; i < count / 2 - 1; i++) {
             newnode = newnode->next;
